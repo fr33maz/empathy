@@ -34,7 +34,7 @@ body {
 
 header {
     padding: 40px 0px;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
 }
 
 .container {
@@ -66,7 +66,7 @@ main section div {
 }
 
 main section div img {
-    margin-bottom: 146px;
+    padding-bottom: 146px;
 }
 
 main section div article form {
@@ -107,7 +107,6 @@ main section div article form button {
 }
 
 main section h2 {
-    padding: 144px 0 80px;
     color: #1E1928;
     text-align: center;
     font-family: Inter;
@@ -116,6 +115,10 @@ main section h2 {
     font-weight: 700;
     line-height: 26px;
     letter-spacing: 0.252px;
+}
+
+.main-section {
+    padding: 80px 0 190px;
 }
 
 main section a {
@@ -358,7 +361,7 @@ main section a {
 .quote-section {
     background-color: #592141;
     text-align: center;
-    padding: 144px 0 184px;
+    padding: 300px 0 184px;
     position: relative;
 }
 
@@ -373,7 +376,7 @@ main section a {
     justify-content: space-around;
 }
 
-.quote-section h4::before {
+.quote-section h4::after {
     content: "“";
     color: #F4EFE9;
     font-family: Roboto;
@@ -382,21 +385,19 @@ main section a {
     font-weight: 400;
     line-height: 96px;
     position: relative;
-    top: 120px;
-    left: 110px;
+    display: block;
+    margin: auto;
+    margin-top: 26px;
 }
 
 .quote-section h4 {
     color: #F4EFE9;
-    position: relative;
-    right: 25px;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.252px;
-    margin-bottom: 100px;
 }
 
 .quote-section h5 {
@@ -423,6 +424,7 @@ main section a {
     font-size: 32px;
     line-height: 42px;
 }
+
 .quote-section div div p {
     color: rgba(30, 25, 40, 0.64);
     font-size: 14px;
