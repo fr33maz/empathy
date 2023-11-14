@@ -42,93 +42,125 @@
         min-height: fit-content;
         margin-bottom: 50px;
     }
+
     .how-it-works-descriprion article p {
-        text-align: center!important;
-        margin: auto!important;
-        margin-bottom: 15px!important;
+        text-align: center !important;
+        margin: auto !important;
+        margin-bottom: 15px !important;
     }
+
     .how-it-works-descriprion {
-        padding-bottom: 20px ;
+        padding-bottom: 20px;
     }
-    .explanation_section img{
-        display:none;
+
+    .explanation_section img {
+        display: none;
     }
-    .explanation_section{
+
+    .explanation_section {
         background-image: url("../img/expl-sec-img-4.png");
         background-repeat: no-repeat;
-        background-size:auto;
+        background-size: auto;
         text-align: center;
 
     }
+
     .explanation_section article h3 {
         margin-bottom: 15px;
     }
+
     .explanation_section article p {
         margin-bottom: 15px;
     }
+
     .explanation_section article:first-of-type p {
-        text-align: center!important;
+        text-align: center !important;
 
     }
+
     .explanation_section article:first-of-type h3 {
 
         text-align: center;
-    }.explanation_section article:last-of-type p {
-
-        text-align: center!important;
     }
+
+    .explanation_section article:last-of-type p {
+
+        text-align: center !important;
+    }
+
     .explanation_section article:last-of-type h3 {
         text-align: center;
 
     }
+
     .explanation_section article:nth-of-type(3) p {
-        text-align: center!important;
+        text-align: center !important;
     }
+
     .explanation_section article:nth-of-type(3) h3 {
         text-align: center;
     }
+
     .section-with-cards {
         padding: 30px 0;
     }
+
     .section-with-cards .banner-container {
         display: block;
         flex-wrap: wrap;
     }
+
     .quote-section {
         padding: 12px;
     }
+
     .quote-section .white-segment {
         display: block;
     }
+
     .quote-section .white-segment div:first-of-type p {
         margin-bottom: 30px;
     }
 
-.quote-section h4 { 
-    margin-top: 25px;
+    .quote-section h4 {
+        margin-top: 25px;
+    }
 }
-}
+
 @media only screen and (max-width: 530px) {
     h1 {
         font-size: 42px;
         margin-bottom: 10px;
     }
+
     h2 {
         padding: 0 12px;
     }
+
     h3 {
         padding: 0 12px;
     }
+
     h4 {
         padding: 0 12px;
     }
+
     h5 {
-        padding: 0 12px; 
+        padding: 0 12px;
     }
+
     p {
         padding: 0 12px;
     }
+
     header div nav {
         display: none;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+    main section div article form input {
+        margin: auto;
     }
 }
