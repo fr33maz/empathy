@@ -1,7 +1,9 @@
 @media only screen and (max-width: 1092px) {
     .banner-container {
         display: none;
+
     }
+    .banner-container 
 
     .white-segment {
         position: static;
@@ -57,12 +59,8 @@
         display: none;
     }
 
-    .explanation_section {
-        background-image: url("../img/expl-sec-img-4.png");
-        background-repeat: no-repeat;
-        background-size: auto;
+    .explanation_section.container article {
         text-align: center;
-
     }
 
     .explanation_section article h3 {
@@ -155,6 +153,10 @@
 
     header div nav {
         display: none;
+
+    }
+    header div {
+        justify-content: center;
     }
 
 }
