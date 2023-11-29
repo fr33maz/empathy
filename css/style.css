@@ -64,7 +64,7 @@ main section div {
     justify-content: space-between;
 }
 
-.banner-container{
+.banner-container {
     padding-bottom: 146px;
 }
 
@@ -130,13 +130,16 @@ main section a {
     border: 1px solid #1E1928;
     text-decoration: none;
 }
+
 .section-with-cards .banner-container {
     padding: 0;
     margin-bottom: 90px;
 }
+
 .section-with-cards h2 {
     margin-bottom: 80px;
 }
+
 .relief-section {
     background-color: #FFD394;
     background-image: url(../img/cards.png);
@@ -359,10 +362,64 @@ main section a {
     flex-wrap: wrap;
 }
 
+.banner-container.owl-carousel .owl-dots .owl-dot span {
+    display: inline-block;
+    height: 10px;
+    border-radius: 50%;
+    width: 10px;
+    background-color: white;
+    margin: 10px;
+
+}
+
+.banner-container.owl-carousel .owl-dots .owl-dot.active span {
+
+    background-color: green;
+
+
+}
+
+.banner-container.owl-carousel .owl-dots {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
 .section-with-cards {
     padding: 144px 0 322px;
     text-align: center;
+    margin: auto;
+    max-width: 1200px;
 }
+
+.banner-container.owl-carousel .owl-nav .owl-next {
+    background-color: #FFFFFF;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: absolute;
+    right: -75px;
+    top: 65px;
+}
+
+.banner-container.owl-carousel .owl-nav .owl-next::after {
+    content: ">";
+}
+
+.banner-container.owl-carousel .owl-nav .owl-prev {
+    background-color: #FFFFFF;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: -75px;
+    top: 65px;
+}
+
+.banner-container.owl-carousel .owl-nav .owl-prev::after {
+    content: "<";
+}
+
 
 .quote-section {
     background-color: #592141;
@@ -381,9 +438,11 @@ main section a {
     display: flex;
     justify-content: space-around;
 }
+
 .quote-section .white-segment h3 {
     margin-bottom: 16px;
 }
+
 .quote-section h4::after {
     content: "“";
     color: #F4EFE9;
@@ -440,6 +499,69 @@ main section a {
     line-height: 22px;
     letter-spacing: 0.084px;
 }
+
 .owl-carousel .owl-item img {
     max-width: 160px;
+}
+
+.faq {
+    padding: 100px 0;
+
+
+}
+
+.faq .container {
+    display: block;
+}
+
+#accordion {
+    display: block;
+}
+
+.faq .ui-accordion .ui-accordion-header {
+    background-color: rgba(244, 239, 233, 1);
+    border: black 2px solid;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.faq .ui-accordion-content {
+    border: black solid 2px;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+    background-color: wheat;
+}
+
+.faq h3 {
+    color: black;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 65px;
+    margin: auto;
+}
+
+.faq .ui-accordion .ui-accordion-header-active {
+    border-radius: 20px 20px 0 0;
+    border-bottom: none;
+    background-color: wheat;
+}
+
+.faq .ui-accordion .ui-state-active {
+    color: black;
+}
+
+.faq .ui-accordion .ui-icon {
+    background-image: none;
+}
+
+.faq .ui-accordion .ui-accordion-header::after {
+    content: "\2193";
+    position: absolute;
+    right: 30px;
+}
+
+.faq .ui-accordion .ui-accordion-header-active:after {
+    content: "\2191";
+    position: absolute;
+    right: 30px;
 }

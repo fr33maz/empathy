@@ -8,33 +8,37 @@ $(document).ready(function(){
 
         responsive:{
             0:{
-                items:1
+                items:0
             },
             120: {
-                items:2
+                items:1
             },
             240: {
-                items:3
+                items:1
             },
             360: {
-                items:4
+                items:2
             },
             480: {
-                items:5
+                items:3
             },
             600: {
-                items:6
+                items:4
             },
             720: {
-                items:7
+                items:5
             },
 
             840: {
-                items:8
+                items:6
             },
             960: {
-                items:9
+                items:7
             },
         }
     });
+    $( function() {
+        $( "#accordion" ).accordion();
+      } );
+
 });
