@@ -11,7 +11,9 @@
     .banner-container .white-segment {
         position: static;
     }
-
+    .banner-container.owl-carousel .owl-dots .owl-dot span {
+        margin-bottom: 70px ;
+    }
     main section .container {
         padding-bottom: 99px;
         text-align: center;
@@ -80,7 +82,7 @@
     }
 
     .explanation_section article:first-of-type h3 {
-
+        margin-top: 22px;
         text-align: center;
     }
 
