@@ -17,38 +17,52 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://resources/demos/style.css">
+    <!-- <link rel="stylesheet" href="css/mobile.menu.css"> -->
     <link rel="stylesheet" href="css/style.css">
+
     <link rel="stylesheet" href="css/media.css">
+
 
 </head>
 
 <body>
     <header>
         <div class="container">
-            <a href="#">
+            <a id="a" href="#">
                 <img src="img/logo.svg" alt="logo">
             </a>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#" class="item-link">About</a>
-                    </li>
-                    <li>
-                        <a href="#" class="item-link">Learn</a>
-                    </li>
-                    <li>
-                        <a href="#" class="item-link">Partner</a>
-                    </li>
-                    <li>
-                        <a href="#" class="item-link">COVID-19</a>
-                    </li>
-                </ul>
+            <nav class="nav">
+                <input type="checkbox" class="nav__cb" id="menu-cb" />
+                <div class="nav__content">
+                    <ul class="nav__items">
+                        <li class="nav__item">
+                            <span class="nav__item-text">
+                                <a href="#" class="item-link">About</a>
+                            </span>
+                        </li>
+                        <li class="nav__item">
+                            <span class="nav__item-text">
+                                <a href="#" class="item-link">Learn</a>
+                            </span>
+                        </li>
+                        <li class="nav__item">
+                            <span class="nav__item-text">
+                                <a href="#" class="item-link">Partner</a>
+                            </span>
+                        </li>
+                        <li class="nav__item">
+                            <span class="nav__item-text">
+                                <a href="#" class="item-link">COVID-19</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <label class="nav__btn" for="menu-cb"></label>
             </nav>
-        </div>
     </header>
 
     <main>
-        <section>
+        <section class="main_section">
             <div class="container">
                 <article>
                     <h1>
@@ -183,20 +197,15 @@
         </section>
         <section class="quote-section">
             <div class="white-segment">
-                <div>
-                    <h3>30-day free trial</h4>
-                        <p>No credit card required, no strings attached.</p>
-                </div>
-                <div>
-                    <h3>$65, all included</h3>
-                    <p>Just one payment, for as long as you need. No hidden fees.</p>
-                </div>
+                <h3>Your security is our priority.</h3>
+                <p>Empathy is committed to ensuring that your data is and will always be safe and private. We use bank-level 256-bit encryption to store and transmit data, and your most private information is protected with two-factor authentication.</p>
             </div>
+
             <h4>In the words of our users</h4>
             <h5>“I feel bad for those that have to go through this alone, because there's so many that do, and I feel
                 that the process is such a debacle. It's just a mess. There's so much to do, there's so much to know.
                 One wrong move and you can have all your bank accounts frozen.”</h5>
-            <p>– Roger, 31, Ohio</p>
+
         </section>
         <section class="faq">
             <div class="container">
@@ -204,29 +213,38 @@
                 <div id="accordion">
                     <h4>Built for peace of mind.</h4>
                     <div>
-                      <p>
-                        Empathy is designed to show you the specific steps to take, based on your unique situation and at your own pace. Whether you’re planning a funeral, managing an estate, or dealing with any other arrangements, get the knowledge and support you need.
-                      </p>
+                        <p>
+                            Empathy is designed to show you the specific steps to take, based on your unique situation
+                            and at your own pace. Whether you’re planning a funeral, managing an estate, or dealing with
+                            any other arrangements, get the knowledge and support you need.
+                        </p>
                     </div>
                     <h4>Standing by to assist you.</h4>
                     <div>
-                      <p>
-                        Chat with an expert who understands what you’re going through. Our loss experts will provide you with the answers you need, or help you find local professionals. They can even take some tasks off your hands and do them for you.
-                      </p>
+                        <p>
+                            Chat with an expert who understands what you’re going through. Our loss experts will provide
+                            you with the answers you need, or help you find local professionals. They can even take some
+                            tasks off your hands and do them for you.
+                        </p>
                     </div>
                     <h4>Easily track and collect benefits.</h4>
                     <div>
-                      <p>
-                        Get simple and immediate guidance to all the benefits your family may be entitled to—including many you may not have known about. The app helps you locate, determine eligibility, and collect on these important sources of funding for the funeral and the estate.
-                      </p>
+                        <p>
+                            Get simple and immediate guidance to all the benefits your family may be entitled
+                            to—including many you may not have known about. The app helps you locate, determine
+                            eligibility, and collect on these important sources of funding for the funeral and the
+                            estate.
+                        </p>
                     </div>
                     <h4>Paperwork, figured out.</h4>
                     <div>
-                      <p>
-                        The app helps you locate and safely store important papers, and guides you through handling them. Bills, debt, unused services, insurance policies, bank accounts, and more, to help you stay organized and in control.
-                      </p>
+                        <p>
+                            The app helps you locate and safely store important papers, and guides you through handling
+                            them. Bills, debt, unused services, insurance policies, bank accounts, and more, to help you
+                            stay organized and in control.
+                        </p>
                     </div>
-                  </div>
+                </div>
             </div>
         </section>
     </main>
